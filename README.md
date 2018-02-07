@@ -51,7 +51,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// param: __updaterowLS(ID_to_update_integer, fieldToUpdate, updatedEntry, databasekey_name)
 
 			// __updaterowLS(1, "sport", "balap motor", "dataku");
-
+			
 
 	// // // DELETE LOCAL STORAGE ROW ENTRY BY ID // // // // // //// // //
 	// param: __delrowLS(ID_to_delete, databasekey_name)
