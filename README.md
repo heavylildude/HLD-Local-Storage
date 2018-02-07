@@ -1,8 +1,9 @@
 # HLD-Local-Storage
 Small Js library to work with HTML5 Local Storage
 
-# Initial upload // Will update later if I got time
-# Feel Free To Use and Share // Please don't remove the copyright
+# Initial upload, will update later if I got time
+# Feel Free To Use and Share | Please don't remove the copyright
+You can use chrome Developer Tools > Application > Local Storage to test
 
 // /// /// EXAMPLES //// /////////////////////////////
 
@@ -65,7 +66,7 @@ Small Js library to work with HTML5 Local Storage
 			// var namakey = "dataku";
 
 			// data_new = [{
-			// 	"nama": "menaaaacit", 
-			// 	"sport":"ssss"
+			// 	"nama": "mencit", 
+			// 	"sport":"parasailing"
 			// }];
 			// __insertrowLS(data_new, namakey);
