@@ -77,7 +77,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 # EXAMPLE OF DISPLAYING LOCAL STORAGE DATA TO HTML TABLE
 
 
-	// arrnya = __getLS("inilah");
+	// arrnya = __getLS("dataku");
 
 	// function showObject(obj) {
 	//   var result = "";
