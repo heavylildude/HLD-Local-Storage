@@ -76,32 +76,32 @@ You can use chrome Developer Tools > Application > Local Storage to test
 
 # EXAMPLE OF SHOWING LOCAL STORAGE DATA TO TABLE
 
-				// ///// ///// //EXAMPLE OF SHOWING LOCAL STORAGE DATA TO TABLE
-				// arrnya = __getLS("inilah");
+	// ///// ///// //EXAMPLE OF SHOWING LOCAL STORAGE DATA TO TABLE
+	// arrnya = __getLS("inilah");
 
-				// function showObject(obj) {
-				//   var result = "";
-				//   for (var p in obj) {
-				//     if( obj.hasOwnProperty(p) ) {
-				//       result += p + " , " + obj[p] + "\n";
-				//     } 
-				//   }              
-				//   return result;
-				// }
+	// function showObject(obj) {
+	//   var result = "";
+	//   for (var p in obj) {
+	//     if( obj.hasOwnProperty(p) ) {
+	//       result += p + " , " + obj[p] + "\n";
+	//     } 
+	//   }              
+	//   return result;
+	// }
 
-				// var populate = "";
-				// var yayaya = "";
-				// for (i=0; i<arrnya.length; i++) {
-				// 	if (arrnya[i].ID == 2) {
-				// 		for (key in arrnya[i]) {
-				// 				populate = '<tr><td>' + key + '</td><td>' + arrnya[i][key] + '</td></tr>';
-				// 				yayaya = yayaya + populate;
-				// 		}
-				// 	}
-				// }
-				// 
+	// var populate = "";
+	// var yayaya = "";
+	// for (i=0; i<arrnya.length; i++) {
+	// 	if (arrnya[i].ID == 2) {
+	// 		for (key in arrnya[i]) {
+	// 				populate = '<tr><td>' + key + '</td><td>' + arrnya[i][key] + '</td></tr>';
+	// 				yayaya = yayaya + populate;
+	// 		}
+	// 	}
+	// }
+	// 
 				
-				// SIMPLY OUTPUT TO <div id="inidia"></div>
-				//
-				// var x = document.getElementById("inidia");
-				//     x.innerHTML = yayaya;
+	// SIMPLY OUTPUT TO <div id="inidia"></div>
+	//
+	// var x = document.getElementById("inidia");
+	//     x.innerHTML = yayaya;
