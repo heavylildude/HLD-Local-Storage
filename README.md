@@ -93,4 +93,4 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// SIMPLY OUTPUT TO <table id="inidia"></table>
 	//
 	// var x = document.getElementById("inidia");
-	//     x.innerHTML = row;
+	//     x.innerHTML = '<tr><th>ID</th><th>nama</th><th>sport</th></tr>' + row;
