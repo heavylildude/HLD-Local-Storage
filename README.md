@@ -6,7 +6,7 @@ Small Js library to work with HTML5 Local Storage
 # Please don't remove the copyright
 You can use chrome Developer Tools > Application > Local Storage to test
 
-// /// /// EXAMPLES //// /////////////////////////////
+	// /// /// EXAMPLES //// /////////////////////////////
 
 	// data_arr = [
 	// 	{"ID":1, "nama": "udin", "sport":"football"},
@@ -74,9 +74,9 @@ You can use chrome Developer Tools > Application > Local Storage to test
 
 
 
-# EXAMPLE OF SHOWING LOCAL STORAGE DATA TO TABLE
+# EXAMPLE OF DISPLAYING LOCAL STORAGE DATA TO HTML TABLE
 
-	// ///// ///// //EXAMPLE OF SHOWING LOCAL STORAGE DATA TO TABLE
+
 	// arrnya = __getLS("inilah");
 
 	// function showObject(obj) {
@@ -101,7 +101,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// }
 	// 
 				
-	// SIMPLY OUTPUT TO <div id="inidia"></div>
+	// SIMPLY OUTPUT TO <table id="inidia"></table>
 	//
 	// var x = document.getElementById("inidia");
 	//     x.innerHTML = yayaya;
