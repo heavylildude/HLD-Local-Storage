@@ -20,7 +20,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// return: true/false
 
 			// USAGE EXAMPLE
-			// __checkLS(namakey);
+			// __checkLS("dataku");
 
 	// // // SET LOCAL STORAGE // // // // // //// // //
 	// param: __setLS(databasekey_name, data_array)
