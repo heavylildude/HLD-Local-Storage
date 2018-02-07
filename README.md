@@ -78,19 +78,19 @@ You can use chrome Developer Tools > Application > Local Storage to test
 
 	// arrnya = __getLS("dataku");
 
-	// var populate = "";
-	// var yayaya = "";
-	// for (i=0; i<arrnya.length; i++) {
-	// 	if (arrnya[i].ID == 2) {
-	// 		for (key in arrnya[i]) {
-	// 			populate = '<tr><td>' + key + '</td><td>' + arrnya[i][key] + '</td></tr>';
-	// 			yayaya = yayaya + populate;
-	// 		}
-	// 	}
-	// }
-	// 
+	// POPULATE ALL
+	var populate = "";
+	var row = "";
+	for (i=0; i<arrnya.length; i++) {
+		for (key in arrnya[i]) {
+			populate = '<td>' + arrnya[i][key] + '</td>';
+			row = row + populate;
+		}
+		row = '<tr>' + row + '</tr>';
+			
+	}
 				
 	// SIMPLY OUTPUT TO <table id="inidia"></table>
 	//
 	// var x = document.getElementById("inidia");
-	//     x.innerHTML = yayaya;
+	//     x.innerHTML = row;
