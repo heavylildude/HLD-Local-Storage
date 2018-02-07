@@ -35,7 +35,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// return: true/false
 
 			// USAGE EXAMPLE
-			// __deleteLS("dataku", data_arr);
+			// __deleteLS("dataku");
 
 	// // // GET BY LOCAL STORAGE KEY // // // // // //// // //
 	// param: _getLS(databasekey_name)
