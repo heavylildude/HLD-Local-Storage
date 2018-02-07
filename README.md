@@ -2,7 +2,8 @@
 Small Js library to work with HTML5 Local Storage
 
 # Initial upload, will update later if I got time
-# Feel Free To Use and Share | Please don't remove the copyright
+# Feel Free To Use and Share
+# Please don't remove the copyright
 You can use chrome Developer Tools > Application > Local Storage to test
 
 // /// /// EXAMPLES //// /////////////////////////////
@@ -49,7 +50,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// // // UPDATE LOCAL STORAGE ROW ENTRY BY ID, ARRAYKEY, ARRAY_KEY_VALUE // // // // // //// // //
 	// param: __updaterowLS(ID_to_update_integer, fieldToUpdate, updatedEntry, databasekey_name)
 
-			// __updaterowLS(1, "sport", "balap mobil", "dataku");
+			// __updaterowLS(1, "sport", "balap motor", "dataku");
 
 
 	// // // DELETE LOCAL STORAGE ROW ENTRY BY ID // // // // // //// // //
@@ -66,7 +67,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 			// var namakey = "dataku";
 
 			// data_new = [{
-			// 	"nama": "mencit", 
+			// 	"nama": "suprapto", 
 			// 	"sport":"parasailing"
 			// }];
 			// __insertrowLS(data_new, namakey);
