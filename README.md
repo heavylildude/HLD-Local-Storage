@@ -23,6 +23,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 			// __checkLS("dataku");
 
 	// // // SET LOCAL STORAGE // // // // // //// // //
+	// Here we save data_array example on top to a key named "dataku"
 	// param: __setLS(databasekey_name, data_array)
 	// return: true/false
 
@@ -31,6 +32,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 
 
 	// // // DELETE LOCAL STORAGE // // // // // //// // //
+	// Here we delete local storage with key named "dataku"
 	// param: __deleteLS(databasekey_name)
 	// return: true/false
 
@@ -38,6 +40,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 			// __deleteLS("dataku");
 
 	// // // GET BY LOCAL STORAGE KEY // // // // // //// // //
+	// Here we can get localstorage content directly
 	// param: _getLS(databasekey_name)
 
 			// USAGE EXAMPLE
@@ -48,6 +51,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 			// );
 
 	// // // UPDATE LOCAL STORAGE ROW ENTRY BY ID, ARRAYKEY, ARRAY_KEY_VALUE // // // // // //// // //
+	// we can update by ID
 	// param: __updaterowLS(ID_to_update_integer, fieldToUpdate, updatedEntry, databasekey_name)
 
 			// __updaterowLS(1, "sport", "balap motor", "dataku");
