@@ -14,8 +14,9 @@ Start with a simple array, example:
 	 	{"ID":3, "nama": "joko", "sport":"basket"}
 	];
 
+Below are the functions:
 
-TO CHECK IF LOCAL STORAGE KEY EXIST
+1) TO CHECK IF LOCAL STORAGE KEY EXIST
 param: __checkLS(databasekey_name)
 return: true/false
 
@@ -23,7 +24,7 @@ USAGE EXAMPLE:
 			
 	 __checkLS("dataku");
 
-TO SET LOCAL STORAGE
+2) TO SET LOCAL STORAGE
 Here we save data_array example on top to a key named "dataku"
 param: __setLS(databasekey_name, data_array)
 return: true/false
@@ -33,7 +34,7 @@ USAGE EXAMPLE
 	 __setLS("dataku", data_arr);
 
 
-TO DELETE LOCAL STORAGE
+3) TO DELETE LOCAL STORAGE
 Here we delete local storage with key named "dataku"
 param: __deleteLS(databasekey_name)
 return: true/false
@@ -42,7 +43,7 @@ USAGE EXAMPLE
 			 
 		__deleteLS("dataku");
 
-TO GET BY LOCAL STORAGE KEY
+4) TO GET BY LOCAL STORAGE KEY
 Here we can get localstorage content directly
 param: _getLS(databasekey_name)
 
@@ -50,7 +51,7 @@ USAGE EXAMPLE:
 			 
 		alert(__getLS("dataku")[0]["ID"]	+ ' || ' + __getLS("dataku")[0]["nama"]);
 
-TO UPDATE LOCAL STORAGE ROW ENTRY BY: ID, ARRAYKEY, ARRAY_KEY_VALUE
+5) TO UPDATE LOCAL STORAGE ROW ENTRY BY: ID, ARRAYKEY, ARRAY_KEY_VALUE
 we can update by ID
 param: __updaterowLS(ID_to_update_integer, fieldToUpdate, updatedEntry, databasekey_name)
 
@@ -58,28 +59,28 @@ USAGE EXAMPLE:
 
 	__updaterowLS(1, "sport", "balap motor", "dataku");
 			
-TO DELETE LOCAL STORAGE ROW ENTRY BY ID
+6) TO DELETE LOCAL STORAGE ROW ENTRY BY ID
 param: __delrowLS(ID_to_delete, databasekey_name)
 
 USAGE EXAMPLE:
 			 
-		__delrowLS(2, "dataku");
+	__delrowLS(2, "dataku");
 
-TO INSERT NEW LOCAL STORAGE ROW ENTRY
+7) TO INSERT NEW LOCAL STORAGE ROW ENTRY
 param: __insertrowLS(array_to_insert, databasekey_name)
 
 USAGE EXAMPLE:
-			// var namakey = "dataku";
 
-			// data_new = [{
-			// 	"nama": "suprapto", 
-			// 	"sport":"parasailing"
-			// }];
-			// __insertrowLS(data_new, namakey);
+   	var namakey = "dataku";
+	data_new = [{
+		"nama": "John", 
+		"sport":"parasailing"
+	}];
+
+   	__insertrowLS(data_new, namakey);
 
 
-
-# EXAMPLE OF DISPLAYING LOCAL STORAGE DATA TO HTML TABLE
+### EXAMPLE OF DISPLAYING LOCAL STORAGE DATA TO HTML TABLE
 
 	arrnya = __getLS("dataku");
 
