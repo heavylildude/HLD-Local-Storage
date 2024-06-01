@@ -41,7 +41,7 @@ return: true/false
 
 USAGE EXAMPLE
 			 
-		__deleteLS("dataku");
+	__deleteLS("dataku");
 
 4) TO GET BY LOCAL STORAGE KEY
 Here we can get localstorage content directly
@@ -49,7 +49,7 @@ param: _getLS(databasekey_name)
 
 USAGE EXAMPLE:
 			 
-		alert(__getLS("dataku")[0]["ID"]	+ ' || ' + __getLS("dataku")[0]["nama"]);
+	alert(__getLS("dataku")[0]["ID"]	+ ' || ' + __getLS("dataku")[0]["nama"]);
 
 5) TO UPDATE LOCAL STORAGE ROW ENTRY BY: ID, ARRAYKEY, ARRAY_KEY_VALUE
 we can update by ID
