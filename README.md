@@ -17,6 +17,7 @@ Start with a simple array, example:
 Below are the functions:
 
 1) TO CHECK IF LOCAL STORAGE KEY EXIST
+
 param: __checkLS(databasekey_name)
 return: true/false
 
@@ -26,6 +27,7 @@ USAGE EXAMPLE:
 
 2) TO SET LOCAL STORAGE
 Here we save data_array example on top to a key named "dataku"
+
 param: __setLS(databasekey_name, data_array)
 return: true/false
 
@@ -36,6 +38,7 @@ USAGE EXAMPLE
 
 3) TO DELETE LOCAL STORAGE
 Here we delete local storage with key named "dataku"
+
 param: __deleteLS(databasekey_name)
 return: true/false
 
@@ -45,6 +48,7 @@ USAGE EXAMPLE
 
 4) TO GET BY LOCAL STORAGE KEY
 Here we can get localstorage content directly
+
 param: _getLS(databasekey_name)
 
 USAGE EXAMPLE:
@@ -53,6 +57,7 @@ USAGE EXAMPLE:
 
 5) TO UPDATE LOCAL STORAGE ROW ENTRY BY: ID, ARRAYKEY, ARRAY_KEY_VALUE
 we can update by ID
+
 param: __updaterowLS(ID_to_update_integer, fieldToUpdate, updatedEntry, databasekey_name)
 
 USAGE EXAMPLE:
@@ -60,6 +65,7 @@ USAGE EXAMPLE:
 	__updaterowLS(1, "sport", "balap motor", "dataku");
 			
 6) TO DELETE LOCAL STORAGE ROW ENTRY BY ID
+
 param: __delrowLS(ID_to_delete, databasekey_name)
 
 USAGE EXAMPLE:
@@ -67,6 +73,7 @@ USAGE EXAMPLE:
 	__delrowLS(2, "dataku");
 
 7) TO INSERT NEW LOCAL STORAGE ROW ENTRY
+
 param: __insertrowLS(array_to_insert, databasekey_name)
 
 USAGE EXAMPLE:
