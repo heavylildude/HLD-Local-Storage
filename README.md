@@ -8,11 +8,11 @@ You can use chrome Developer Tools > Application > Local Storage to test
 
 	// /// /// EXAMPLES //// /////////////////////////////
 
-	// data_arr = [
-	// 	{"ID":1, "nama": "udin", "sport":"football"},
-	// 	{"ID":2, "nama": "unang", "sport":"volley"},
-	// 	{"ID":3, "nama": "joko", "sport":"basket"}
-	// ];
+	 data_arr = [
+	 	{"ID":1, "nama": "udin", "sport":"football"},
+	 	{"ID":2, "nama": "unang", "sport":"volley"},
+	 	{"ID":3, "nama": "joko", "sport":"basket"}
+	];
 
 
 	// // // CHECK IF LOCAL STORAGE KEY EXIST // // // // // //// // //
@@ -28,7 +28,7 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// return: true/false
 
 			// USAGE EXAMPLE
-			// __setLS("dataku", data_arr);
+			 __setLS("dataku", data_arr);
 
 
 	// // // DELETE LOCAL STORAGE // // // // // //// // //
@@ -37,31 +37,31 @@ You can use chrome Developer Tools > Application > Local Storage to test
 	// return: true/false
 
 			// USAGE EXAMPLE
-			// __deleteLS("dataku");
+			 __deleteLS("dataku");
 
 	// // // GET BY LOCAL STORAGE KEY // // // // // //// // //
 	// Here we can get localstorage content directly
 	// param: _getLS(databasekey_name)
 
 			// USAGE EXAMPLE
-			// alert(
-			// 	__getLS("dataku")[0]["ID"] 
-			// 	+ ' || ' + 
-			// 	__getLS("dataku")[0]["nama"]
-			// );
+			 alert(
+			 	__getLS("dataku")[0]["ID"] 
+			 	+ ' || ' + 
+			 	__getLS("dataku")[0]["nama"]
+			 );
 
 	// // // UPDATE LOCAL STORAGE ROW ENTRY BY ID, ARRAYKEY, ARRAY_KEY_VALUE // // // // // //// // //
 	// we can update by ID
 	// param: __updaterowLS(ID_to_update_integer, fieldToUpdate, updatedEntry, databasekey_name)
 
-			// __updaterowLS(1, "sport", "balap motor", "dataku");
+			 __updaterowLS(1, "sport", "balap motor", "dataku");
 			
 
 	// // // DELETE LOCAL STORAGE ROW ENTRY BY ID // // // // // //// // //
 	// param: __delrowLS(ID_to_delete, databasekey_name)
 
 			// USAGE EXAMPLE
-			// __delrowLS(2, "dataku");
+			 __delrowLS(2, "dataku");
 
 
 	// // // INSERT NEW LOCAL STORAGE ROW ENTRY // // // // // //// // //
