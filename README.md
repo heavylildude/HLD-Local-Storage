@@ -3,7 +3,9 @@ Small Js library to work with HTML5 Local Storage
 
 # Initial upload, will update later if I got time
 Feel Free To Use and Share
+
 Please don't remove the copyright
+
 You can use chrome Developer Tools > Application > Local Storage to test
 
 Start with a simple array, example:
