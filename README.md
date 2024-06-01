@@ -89,7 +89,7 @@ USAGE EXAMPLE:
    	__insertrowLS(data_new, namakey);
 
 
-### EXAMPLE OF DISPLAYING LOCAL STORAGE DATA TO HTML TABLE
+# EXAMPLE OF DISPLAYING LOCAL STORAGE DATA TO HTML TABLE
 
 	arrnya = __getLS("dataku");
 
